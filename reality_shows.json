@@ -1,0 +1,422 @@
+[
+  {
+    "nome": "Big Brother Brasil 2025",
+    "emissora": "Globo",
+    "audiencia_pontos": 85,
+    "data_inicio": {"$date": "2025-01-13T00:00:00Z"},
+    "participantes": [
+      {
+        "id": 1,
+        "nome": "João Silva",
+        "idade": 28,
+        "total_votos": 15420,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Líder - Semana 1",
+            "valor": 5000,
+            "data_ganho": {"$date": "2025-01-20T00:00:00Z"}
+          },
+          {
+            "descricao": "Prova do Anjo",
+            "valor": 3000,
+            "data_ganho": {"$date": "2025-01-22T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nome": "Maria Oliveira",
+        "idade": 25,
+        "total_votos": 22890,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova da Comida",
+            "valor": 2000,
+            "data_ganho": {"$date": "2025-01-18T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nome": "Carlos Pereira",
+        "idade": 32,
+        "total_votos": 8750,
+        "eliminado": true,
+        "premios": []
+      },
+      {
+        "id": 4,
+        "nome": "Ana Costa",
+        "idade": 29,
+        "total_votos": 19340,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Líder - Semana 2",
+            "valor": 5000,
+            "data_ganho": {"$date": "2025-01-27T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nome": "Pedro Santos",
+        "idade": 27,
+        "total_votos": 12560,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Anjo - Semana 2",
+            "valor": 3000,
+            "data_ganho": {"$date": "2025-01-29T00:00:00Z"}
+          },
+          {
+            "descricao": "Prêmio Patrocinador",
+            "valor": 10000,
+            "data_ganho": {"$date": "2025-02-01T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nome": "Juliana Alves",
+        "idade": 24,
+        "total_votos": 18920,
+        "eliminado": false,
+        "premios": []
+      },
+      {
+        "id": 7,
+        "nome": "Roberto Lima",
+        "idade": 35,
+        "total_votos": 6430,
+        "eliminado": true,
+        "premios": [
+          {
+            "descricao": "Prova da Resistência",
+            "valor": 4000,
+            "data_ganho": {"$date": "2025-01-25T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nome": "Fernanda Rocha",
+        "idade": 26,
+        "total_votos": 21450,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova da Comida - Semana 2",
+            "valor": 2000,
+            "data_ganho": {"$date": "2025-01-25T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nome": "Lucas Mendes",
+        "idade": 30,
+        "total_votos": 14780,
+        "eliminado": false,
+        "premios": []
+      },
+      {
+        "id": 10,
+        "nome": "Beatriz Souza",
+        "idade": 23,
+        "total_votos": 17650,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Líder - Semana 3",
+            "valor": 5000,
+            "data_ganho": {"$date": "2025-02-03T00:00:00Z"}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "A Fazenda 16",
+    "emissora": "Record",
+    "audiencia_pontos": 72,
+    "data_inicio": {"$date": "2024-09-16T00:00:00Z"},
+    "participantes": [
+      {
+        "id": 11,
+        "nome": "Gabriel Martins",
+        "idade": 31,
+        "total_votos": 28450,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Fazendeiro - Semana 1",
+            "valor": 7000,
+            "data_ganho": {"$date": "2024-09-23T00:00:00Z"}
+          },
+          {
+            "descricao": "Prova de Fogo",
+            "valor": 15000,
+            "data_ganho": {"$date": "2024-09-30T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "nome": "Camila Rodrigues",
+        "idade": 27,
+        "total_votos": 31200,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Agilidade",
+            "valor": 4500,
+            "data_ganho": {"$date": "2024-09-25T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "nome": "Ricardo Nunes",
+        "idade": 34,
+        "total_votos": 11230,
+        "eliminado": true,
+        "premios": []
+      },
+      {
+        "id": 14,
+        "nome": "Larissa Matos",
+        "idade": 26,
+        "total_votos": 24680,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Fazendeiro - Semana 2",
+            "valor": 7000,
+            "data_ganho": {"$date": "2024-09-30T00:00:00Z"}
+          },
+          {
+            "descricao": "Dinâmica Especial",
+            "valor": 20000,
+            "data_ganho": {"$date": "2024-10-05T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "nome": "Thiago Cardoso",
+        "idade": 29,
+        "total_votos": 19870,
+        "eliminado": false,
+        "premios": []
+      },
+      {
+        "id": 16,
+        "nome": "Vanessa Prado",
+        "idade": 25,
+        "total_votos": 26340,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Resistência",
+            "valor": 8000,
+            "data_ganho": {"$date": "2024-10-01T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "nome": "Eduardo Barros",
+        "idade": 33,
+        "total_votos": 9560,
+        "eliminado": true,
+        "premios": [
+          {
+            "descricao": "Prova da Sorte",
+            "valor": 3000,
+            "data_ganho": {"$date": "2024-09-28T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "nome": "Patrícia Lopes",
+        "idade": 28,
+        "total_votos": 22190,
+        "eliminado": false,
+        "premios": []
+      },
+      {
+        "id": 19,
+        "nome": "Diego Ferreira",
+        "idade": 30,
+        "total_votos": 18450,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova do Fazendeiro - Semana 3",
+            "valor": 7000,
+            "data_ganho": {"$date": "2024-10-07T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "nome": "Amanda Silva",
+        "idade": 24,
+        "total_votos": 29870,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Fogo - Semana 2",
+            "valor": 15000,
+            "data_ganho": {"$date": "2024-10-07T00:00:00Z"}
+          },
+          {
+            "descricao": "Prêmio Especial",
+            "valor": 25000,
+            "data_ganho": {"$date": "2024-10-10T00:00:00Z"}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "No Limite 5",
+    "emissora": "Globo",
+    "audiencia_pontos": 68,
+    "data_inicio": {"$date": "2024-05-11T00:00:00Z"},
+    "participantes": [
+      {
+        "id": 21,
+        "nome": "Rafael Costa",
+        "idade": 32,
+        "total_votos": 13560,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Imunidade - Semana 1",
+            "valor": 6000,
+            "data_ganho": {"$date": "2024-05-18T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "nome": "Mariana Gomes",
+        "idade": 27,
+        "total_votos": 17890,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Recompensa",
+            "valor": 10000,
+            "data_ganho": {"$date": "2024-05-20T00:00:00Z"}
+          },
+          {
+            "descricao": "Prova de Resistência Extrema",
+            "valor": 30000,
+            "data_ganho": {"$date": "2024-05-25T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "nome": "Bruno Araújo",
+        "idade": 35,
+        "total_votos": 8920,
+        "eliminado": true,
+        "premios": []
+      },
+      {
+        "id": 24,
+        "nome": "Carla Medeiros",
+        "idade": 29,
+        "total_votos": 15670,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Imunidade - Semana 2",
+            "valor": 6000,
+            "data_ganho": {"$date": "2024-05-25T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "nome": "Felipe Almeida",
+        "idade": 28,
+        "total_votos": 19340,
+        "eliminado": false,
+        "premios": []
+      },
+      {
+        "id": 26,
+        "nome": "Isabela Torres",
+        "idade": 26,
+        "total_votos": 21450,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Recompensa - Semana 2",
+            "valor": 10000,
+            "data_ganho": {"$date": "2024-05-27T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "nome": "Marcos Ribeiro",
+        "idade": 31,
+        "total_votos": 7650,
+        "eliminado": true,
+        "premios": [
+          {
+            "descricao": "Prova Individual",
+            "valor": 5000,
+            "data_ganho": {"$date": "2024-05-22T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "nome": "Natália Campos",
+        "idade": 25,
+        "total_votos": 18230,
+        "eliminado": false,
+        "premios": []
+      },
+      {
+        "id": 29,
+        "nome": "Vinícius Duarte",
+        "idade": 30,
+        "total_votos": 16780,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Imunidade - Semana 3",
+            "valor": 6000,
+            "data_ganho": {"$date": "2024-06-01T00:00:00Z"}
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "nome": "Priscila Moura",
+        "idade": 24,
+        "total_votos": 23560,
+        "eliminado": false,
+        "premios": [
+          {
+            "descricao": "Prova de Recompensa Final",
+            "valor": 50000,
+            "data_ganho": {"$date": "2024-06-08T00:00:00Z"}
+          }
+        ]
+      }
+    ]
+  }
+]

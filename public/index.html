@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Votação Reality Show</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="font-family:sans-serif; text-align:center;">
+  <h1>Votação Reality Show</h1>
+
+  <label for="reality">Escolha o reality:</label>
+  <select id="reality" onchange="carregarGrafico()">
+    <option>Big Brother Brasil 2025</option>
+    <option>A Fazenda 16</option>
+    <option>No Limite 5</option>
+  </select>
+
+  <br><br>
+  <input type="text" id="participante" placeholder="Nome do participante">
+  <button onclick="votar()">Votar</button>
+
+  <h2>Gráfico de Votos</h2>
+  <canvas id="grafico" width="400" height="200"></canvas>
+
+  <script>
+    let grafico = null; // variável global para armazenar o gráfico atual
+
+    // Função para votar
+    async function votar() {
+      const reality = document.getElementById("reality").value;
+      const participante = document.getElementById("participante").value.trim();
+
+      if (!participante) {
+        alert("Digite o nome de um participante!");
+        return;
+      }
+
+      await fetch("/votar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reality, participante })
+      });
+
+      await carregarGrafico(); // atualiza o gráfico após o voto
+    }
+
+    // Função para carregar e atualizar o gráfico
+    async function carregarGrafico() {
+      const reality = document.getElementById("reality").value;
+      const resp = await fetch(`/votos/${reality}`);
+      const data = await resp.json();
+
+      const nomes = data.map(p => p.nome);
+      const votos = data.map(p => p.total_votos);
+
+      const ctx = document.getElementById("grafico").getContext("2d");
+
+      // Se já existe um gráfico, destrói antes de recriar
+      if (grafico) {
+        grafico.destroy();
+      }
+
+      grafico = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: nomes,
+          datasets: [{
+            label: "Votos",
+            data: votos,
+            backgroundColor: "rgba(54, 162, 235, 0.7)",
+            borderColor: "rgba(54, 162, 235, 1)",
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            y: { beginAtZero: true }
+          }
+        }
+      });
+    }
+
+    // Carrega o gráfico inicial
+    carregarGrafico();
+  </script>
+</body>
+</html>
